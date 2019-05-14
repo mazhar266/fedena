@@ -1,5 +1,7 @@
 source 'http://rubygems.org'
-ruby "2.6.3"
+ruby "1.9.3",
+  :engine => "jruby",
+  :engine_version => "1.7.27"
 
 gem 'rake', '~> 12.3.2'
 gem 'rails', '= 2.3.5'
