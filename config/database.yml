@@ -1,25 +1,25 @@
 development:
-      host: localhost
+      host: us-cdbr-iron-east-02.cleardb.net
       adapter: mysql
-      database: fedena_ultimate
+      database: heroku_e22b5f3eccfdfc2
       port: 3306
-      username: root
-      password: foradian
+      username: b555a1e0eceea9
+      password: e913395c
 
 test: &test
-      host: localhost
+      host: us-cdbr-iron-east-02.cleardb.net
       adapter: mysql
-      database: fedena_two_new
+      database: heroku_e22b5f3eccfdfc2
       port: 3306
-      username: root
-      password: foradian
+      username: b555a1e0eceea9
+      password: e913395c
 
 production:
-      host: localhost
+      host: us-cdbr-iron-east-02.cleardb.net
       adapter: mysql
-      database: fedena_ultimate
+      database: heroku_e22b5f3eccfdfc2
       port: 3306
-      username: root
-      password: foradian
+      username: b555a1e0eceea9
+      password: e913395c
 cucumber:
   <<: *test
