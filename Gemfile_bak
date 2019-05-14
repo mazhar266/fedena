@@ -1,11 +1,11 @@
 source 'http://rubygems.org'
 
 gem 'rake', '~> 0.8.7'
-gem 'rails', '= 2.3.5'
+gem 'rails', '>= 2.3.12'
 #gem 'rack', '~> 1.3.5'
 gem 'declarative_authorization', '~> 0.5.1'
 gem 'searchlogic'
-gem 'i18n', '= 0.4.0'
+gem 'i18n', '>= 0.6.6'
 gem 'rspec', '= 1.3.0'
 
 # Bundle edge Rails instead:
@@ -50,3 +50,4 @@ gem 'thor', '= 0.14.6'
 # This needs to be installed so we can run Rails console on OpenShift directly
 gem 'minitest'
 #gem 'test-unit', '= 1.2.3'
+
