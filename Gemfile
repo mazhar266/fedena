@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 ruby "2.6.3"
 
-gem 'rake', '~> 0.9.2'
+gem 'rake', '~> 12.3.2'
 gem 'rails', '= 2.3.5'
 #gem 'rack', '~> 1.3.5'
 gem 'declarative_authorization', '~> 0.5.1'
